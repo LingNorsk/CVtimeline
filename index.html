@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Timeline Animation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="cv-timeline">
+    <div class="timeline-grid">
+      <div class="timeline-row">
+        <div class="point" data-step="1">
+          <div class="point-dot">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="8" fill="#fff" stroke="#222" stroke-width="1"/>
+      </svg>
+          </div>
+          <div class="point-year">
+  <span class="year">2012</span><br>
+  <span class="year"> 2016</span>
+</div>
+        </div>
+        <article class="card" data-step="1" data-detailed="Harvard University is one of the most prestigious universities in the world. It offers a wide range of programs and is known for its excellence in Computer Science and research.">
+          <h3>Bachelor's Degree, Harvard <wbr>University</h3>
+          <p>Studied Computer Science with a focus on algorithms and software development.</p>
+        </article>
+      </div>
+      <div class="timeline-row">
+        <div class="point" data-step="2">
+          <div class="point-dot">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="8" fill="#fff" stroke="#222" stroke-width="1"/>
+      </svg>
+          </div>
+          <div class="point-year"><span class="year">2014</span><br>
+  <span class="year"> 2018</span></div>
+        </div>
+        <article class="card" data-step="2" data-detailed="Stanford University is a leader in innovation and technology. It has a strong focus on Artificial Intelligence and Machine Learning research.">
+          <h3>Master's Degree, Stanford <wbr>University</h3>
+          <p>Conducted research in Artificial Intelligence and Machine Learning.</p>
+        </article>
+      </div>
+      <div class="timeline-row">
+        <div class="point" data-step="3">
+          <div class="point-dot">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="8" fill="#fff" stroke="#222" stroke-width="1"/>
+      </svg>
+          </div>
+          <div class="point-year">
+  <span class="year">2018</span><br>
+  <span class="year"> 2022</span>
+</div>
+        </div>
+        <article class="card" data-step="3" data-detailed="MIT is renowned for its cutting-edge research in Quantum Computing and its commitment to advancing technology education.">
+          <h3>PhD, MIT</h3>
+          <p>Completed a dissertation on Quantum Computing and taught undergraduate courses.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <div class="detailed-description">
+  <h3 class="detailed-title"></h3>
+  <p class="detailed-text"></p>
+  <span class="detailed-svg">
+    <img src="filin.svg" alt="filin" style="width: 70%; max-width: 180px; height: auto;">
+</span>
+  </span>
+  </div>
+  <!-- GSAP core and ScrollTrigger plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.5/dist/MotionPathPlugin.min.js"></script>
+  <script src="animation.js"></script>
+  </body>
+</html>
